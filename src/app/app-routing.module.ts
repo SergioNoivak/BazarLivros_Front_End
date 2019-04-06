@@ -6,12 +6,12 @@ import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
   {
-    path:"cadastro-usuario",
-    component:CadastroUsuarioComponent
+    path: 'cadastro-usuario',
+    component: CadastroUsuarioComponent
   },
   {
-    path:"",
-    component:LoginComponent
+    path: '',
+    component: LoginComponent
   }
 
 
