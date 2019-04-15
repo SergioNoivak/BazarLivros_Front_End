@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { MinhaContaComponent } from './minha-conta/minha-conta.component';
 import {CadastroAnuncioComponent} from './cadastro-anuncio/cadastro-anuncio.component';
+import { EditarContaComponent } from './editar-conta/editar-conta.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'cadastro-anuncio',
     component: CadastroAnuncioComponent
+  },
+  {
+    path: 'editar-conta',
+    component: EditarContaComponent
   }
 
 

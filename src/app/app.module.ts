@@ -8,6 +8,7 @@ import { LoginComponent } from './login/login.component';
 import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.component';
 import { MinhaContaComponent } from './minha-conta/minha-conta.component';
 import { CadastroAnuncioComponent } from './cadastro-anuncio/cadastro-anuncio.component';
+import { EditarContaComponent } from './editar-conta/editar-conta.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CadastroAnuncioComponent } from './cadastro-anuncio/cadastro-anuncio.co
     LoginComponent,
     CadastroUsuarioComponent,
     MinhaContaComponent,
-    CadastroAnuncioComponent
+    CadastroAnuncioComponent,
+    EditarContaComponent
   ],
   imports: [
     BrowserModule,
