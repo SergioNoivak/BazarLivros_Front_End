@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.component';
 import { MinhaContaComponent } from './minha-conta/minha-conta.component';
+import { CadastroAnuncioComponent } from './cadastro-anuncio/cadastro-anuncio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     CadastroUsuarioComponent,
-    MinhaContaComponent
+    MinhaContaComponent,
+    CadastroAnuncioComponent
   ],
   imports: [
     BrowserModule,

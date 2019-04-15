@@ -4,6 +4,7 @@ import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.co
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { MinhaContaComponent } from './minha-conta/minha-conta.component';
+import {CadastroAnuncioComponent} from './cadastro-anuncio/cadastro-anuncio.component';
 
 const routes: Routes = [
   {
@@ -17,12 +18,15 @@ const routes: Routes = [
   {
     path: 'minhaConta',
     component: MinhaContaComponent
-
-
+  },
+  {
+    path: 'cadastro-anuncio',
+    component: CadastroAnuncioComponent
   }
 
 
 ];
+
 
 
 
